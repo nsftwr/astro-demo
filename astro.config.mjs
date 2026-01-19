@@ -9,7 +9,7 @@ import tailwindcss from "@tailwindcss/vite";
 import react from "@astrojs/react";
 
 export default defineConfig({
-  site: "https://nsftwr.github.io/astro-demo",
+  site: "https://nsftwr.com/astro-demo",
   output: 'static',
   integrations: [mdx(), sitemap(), icon(), react()],
   vite: {
