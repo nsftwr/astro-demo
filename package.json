@@ -1,0 +1,44 @@
+{
+  "name": "bigcitylife",
+  "type": "module",
+  "version": "0.1.0",
+  "author": "jramma.com",
+  "license": "MIT",
+  "homepage": "https://bigcitylife.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jramma/bigcitylife"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "generate-images": "node scripts/generate-city-images.js"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "4.3.13",
+    "@astrojs/react": "4.4.2",
+    "@astrojs/rss": "4.0.14",
+    "@astrojs/sitemap": "3.6.0",
+    "@iconify/react": "^6.0.2",
+    "@tailwindcss/vite": "^4.1.4",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "astro": "5.16.5",
+    "astro-icon": "^1.1.5",
+    "framer-motion": "^12.9.2",
+    "hamburger-react": "^2.5.2",
+    "iconify": "^1.4.0",
+    "ogl": "^1.0.11",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.4"
+  },
+  "engines": {
+    "node": ">=20.3.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.5"
+  }
+}
