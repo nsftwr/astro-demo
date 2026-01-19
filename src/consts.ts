@@ -15,11 +15,11 @@ export const SOCIAL_LINKS = {
 
 // Navigation URLs
 export const URLS = [
-  { href: "/", text: "Home" },
-  { href: "/about", text: "About me" },
-  { href: "/blog", text: "Blog" },
-  { href: "/collection", text: "Collection" },
-  { href: "/contact", text: "Contact" },
+  { href: "/astro-demo/", text: "Home" },
+  { href: "/astro-demo/about", text: "About me" },
+  { href: "/astro-demo/blog", text: "Blog" },
+  { href: "/astro-demo/collection", text: "Collection" },
+  { href: "/astro-demo/contact", text: "Contact" },
 ];
 
 // RSS configuration
